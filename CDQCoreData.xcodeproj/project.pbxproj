@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3023618258BFE7A00F688A5 /* CDQCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C302360E258BFE7A00F688A5 /* CDQCoreData.framework */; };
+		C302361D258BFE7A00F688A5 /* CDQCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C302361C258BFE7A00F688A5 /* CDQCoreDataTests.m */; };
+		C3023653258BFEC500F688A5 /* NSArray+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = C302362B258BFEC400F688A5 /* NSArray+CoreData.m */; };
+		C3023654258BFEC500F688A5 /* NSPropertyDescription+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C302362C258BFEC400F688A5 /* NSPropertyDescription+CoreUtils.h */; };
+		C3023655258BFEC500F688A5 /* NSAttributeDescription+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C302362D258BFEC400F688A5 /* NSAttributeDescription+CoreUtils.m */; };
+		C3023656258BFEC500F688A5 /* NSManagedObjectContext+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C302362E258BFEC400F688A5 /* NSManagedObjectContext+CoreUtils.h */; };
+		C3023657258BFEC500F688A5 /* NSEntityDescription+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C302362F258BFEC400F688A5 /* NSEntityDescription+CoreUtils.m */; };
+		C3023658258BFEC500F688A5 /* NSThread+CoreManageObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023630258BFEC400F688A5 /* NSThread+CoreManageObjectContext.h */; };
+		C3023659258BFEC500F688A5 /* NSManagedObjectContext+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023631258BFEC400F688A5 /* NSManagedObjectContext+CoreUtils.m */; };
+		C302365A258BFEC500F688A5 /* NSAttributeDescription+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023632258BFEC400F688A5 /* NSAttributeDescription+CoreUtils.h */; };
+		C302365B258BFEC500F688A5 /* NSPropertyDescription+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023633258BFEC400F688A5 /* NSPropertyDescription+CoreUtils.m */; };
+		C302365C258BFEC500F688A5 /* NSArray+CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023634258BFEC400F688A5 /* NSArray+CoreData.h */; };
+		C302365D258BFEC500F688A5 /* NSEntityDescription+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023635258BFEC400F688A5 /* NSEntityDescription+CoreUtils.h */; };
+		C302365E258BFEC500F688A5 /* NSThread+CoreManageObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023636258BFEC400F688A5 /* NSThread+CoreManageObjectContext.m */; };
+		C302365F258BFEC500F688A5 /* CDQCoreData+Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023637258BFEC400F688A5 /* CDQCoreData+Tracker.h */; };
+		C3023660258BFEC500F688A5 /* CDQCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023638258BFEC400F688A5 /* CDQCoreData.h */; };
+		C3023661258BFEC500F688A5 /* CoreDataContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = C302363A258BFEC400F688A5 /* CoreDataContainer.h */; };
+		C3023662258BFEC500F688A5 /* CoreDataContainer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C302363B258BFEC400F688A5 /* CoreDataContainer_Private.h */; };
+		C3023663258BFEC500F688A5 /* CoreDataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C302363C258BFEC400F688A5 /* CoreDataContainer.m */; };
+		C3023664258BFEC500F688A5 /* CDQCoreData_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C302363D258BFEC400F688A5 /* CDQCoreData_Private.h */; };
+		C3023665258BFEC500F688A5 /* CDQCoreData+Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C302363E258BFEC400F688A5 /* CDQCoreData+Tracker.m */; };
+		C3023666258BFEC500F688A5 /* CoreDataObject+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023640258BFEC400F688A5 /* CoreDataObject+CoreUtils.h */; };
+		C3023667258BFEC500F688A5 /* CoreDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023641258BFEC400F688A5 /* CoreDataObject.h */; };
+		C3023668258BFEC500F688A5 /* CoreDataObject_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023642258BFEC400F688A5 /* CoreDataObject_Private.h */; };
+		C3023669258BFEC500F688A5 /* CoreDataObject+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023643258BFEC400F688A5 /* CoreDataObject+CoreUtils.m */; };
+		C302366A258BFEC500F688A5 /* CoreDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023644258BFEC400F688A5 /* CoreDataObject.m */; };
+		C302366B258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023645258BFEC400F688A5 /* CDQCoreData+StaticConfigurations.m */; };
+		C302366C258BFEC500F688A5 /* CoreDatabaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023647258BFEC400F688A5 /* CoreDatabaseTracker.h */; };
+		C302366D258BFEC500F688A5 /* CoreDatabaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023648258BFEC400F688A5 /* CoreDatabaseTracker.m */; };
+		C302366E258BFEC500F688A5 /* CoreFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C302364A258BFEC400F688A5 /* CoreFetchedResultsController.m */; };
+		C302366F258BFEC500F688A5 /* CoreDataFetchStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = C302364B258BFEC400F688A5 /* CoreDataFetchStatement.m */; };
+		C3023670258BFEC500F688A5 /* CoreFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = C302364C258BFEC500F688A5 /* CoreFetchedResultsController.h */; };
+		C3023671258BFEC500F688A5 /* CoreDataFetchStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = C302364D258BFEC500F688A5 /* CoreDataFetchStatement.h */; };
+		C3023672258BFEC500F688A5 /* CoreDataMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C302364F258BFEC500F688A5 /* CoreDataMapper.m */; };
+		C3023673258BFEC500F688A5 /* CoreDataMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023650258BFEC500F688A5 /* CoreDataMapper.h */; };
+		C3023674258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023651258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.h */; };
+		C3023675258BFEC500F688A5 /* CDQCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023652258BFEC500F688A5 /* CDQCoreData.m */; };
+		C302368C258C009A00F688A5 /* CDQDatabaseStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023689258C009900F688A5 /* CDQDatabaseStorage.h */; };
+		C302368D258C009A00F688A5 /* CDQDatabaseStorage_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C302368A258C009A00F688A5 /* CDQDatabaseStorage_Private.h */; };
+		C302368E258C009A00F688A5 /* CDQDatabaseStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = C302368B258C009A00F688A5 /* CDQDatabaseStorage.m */; };
+		C3023695258C019600F688A5 /* NSObject+CoreStaticConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C3023693258C019600F688A5 /* NSObject+CoreStaticConfiguration.m */; };
+		C3023696258C019600F688A5 /* NSObject+CoreStaticConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C3023694258C019600F688A5 /* NSObject+CoreStaticConfiguration.h */; };
+		C302369E258C02E800F688A5 /* NSObject+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C302369C258C02E800F688A5 /* NSObject+CoreUtils.h */; };
+		C302369F258C02E800F688A5 /* NSObject+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C302369D258C02E800F688A5 /* NSObject+CoreUtils.m */; };
+		C30236A6258C036D00F688A5 /* NSObject+CoreSerialize.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236A3258C036D00F688A5 /* NSObject+CoreSerialize.h */; };
+		C30236A7258C036D00F688A5 /* NSObject+CoreSerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236A4258C036D00F688A5 /* NSObject+CoreSerialize.m */; };
+		C30236A8258C036D00F688A5 /* CoreJSONSerializing.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236A5258C036D00F688A5 /* CoreJSONSerializing.h */; };
+		C30236B1258C03D700F688A5 /* NSDate+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236AB258C03D700F688A5 /* NSDate+CoreUtils.h */; };
+		C30236B2258C03D800F688A5 /* NSDate+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236AC258C03D700F688A5 /* NSDate+CoreUtils.m */; };
+		C30236B3258C03D800F688A5 /* NSObject+CoreValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236AD258C03D700F688A5 /* NSObject+CoreValidation.m */; };
+		C30236B4258C03D800F688A5 /* NSObject+CoreValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236AE258C03D700F688A5 /* NSObject+CoreValidation.h */; };
+		C30236B5258C03D800F688A5 /* NSData+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236AF258C03D700F688A5 /* NSData+CoreUtils.m */; };
+		C30236B6258C03D800F688A5 /* NSData+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236B0258C03D700F688A5 /* NSData+CoreUtils.h */; };
+		C30236BD258C041E00F688A5 /* NSString+CoreUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236BB258C041E00F688A5 /* NSString+CoreUtils.h */; };
+		C30236BE258C041E00F688A5 /* NSString+CoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236BC258C041E00F688A5 /* NSString+CoreUtils.m */; };
+		C30236C3258C049300F688A5 /* DebugAsserts.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236C2258C049300F688A5 /* DebugAsserts.h */; };
+		C30236C8258C079C00F688A5 /* NSThread+CoreBlockUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236C6258C079C00F688A5 /* NSThread+CoreBlockUtils.m */; };
+		C30236C9258C079C00F688A5 /* NSThread+CoreBlockUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236C7258C079C00F688A5 /* NSThread+CoreBlockUtils.h */; };
+		C30236D2258C083E00F688A5 /* CoreFormatterStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236D0258C083E00F688A5 /* CoreFormatterStorage.h */; };
+		C30236D3258C083E00F688A5 /* CoreFormatterStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236D1258C083E00F688A5 /* CoreFormatterStorage.m */; };
+		C30236E0258C093300F688A5 /* CDQGlobalEnivroment.h in Headers */ = {isa = PBXBuildFile; fileRef = C30236DE258C093300F688A5 /* CDQGlobalEnivroment.h */; };
+		C30236E1258C093300F688A5 /* CDQGlobalEnivroment.m in Sources */ = {isa = PBXBuildFile; fileRef = C30236DF258C093300F688A5 /* CDQGlobalEnivroment.m */; };
+		C3A42CDB258E794B0010B34E /* CDQCoreDataConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A42CD9258E794B0010B34E /* CDQCoreDataConfiguration.h */; };
+		C3A42CDC258E794B0010B34E /* CDQCoreDataConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A42CDA258E794B0010B34E /* CDQCoreDataConfiguration.m */; };
+		C3A42CE6258E79720010B34E /* CDQCoreDataStorageConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A42CE4258E79720010B34E /* CDQCoreDataStorageConfiguration.h */; };
+		C3A42CE7258E79720010B34E /* CDQCoreDataStorageConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A42CE5258E79720010B34E /* CDQCoreDataStorageConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3023619258BFE7A00F688A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3023605258BFE7A00F688A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C302360D258BFE7A00F688A5;
+			remoteInfo = CDQCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C302360E258BFE7A00F688A5 /* CDQCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDQCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3023612258BFE7A00F688A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3023617258BFE7A00F688A5 /* CDQCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDQCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C302361C258BFE7A00F688A5 /* CDQCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDQCoreDataTests.m; sourceTree = "<group>"; };
+		C302361E258BFE7A00F688A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C302362B258BFEC400F688A5 /* NSArray+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CoreData.m"; sourceTree = "<group>"; };
+		C302362C258BFEC400F688A5 /* NSPropertyDescription+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPropertyDescription+CoreUtils.h"; sourceTree = "<group>"; };
+		C302362D258BFEC400F688A5 /* NSAttributeDescription+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributeDescription+CoreUtils.m"; sourceTree = "<group>"; };
+		C302362E258BFEC400F688A5 /* NSManagedObjectContext+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+CoreUtils.h"; sourceTree = "<group>"; };
+		C302362F258BFEC400F688A5 /* NSEntityDescription+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+CoreUtils.m"; sourceTree = "<group>"; };
+		C3023630258BFEC400F688A5 /* NSThread+CoreManageObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+CoreManageObjectContext.h"; sourceTree = "<group>"; };
+		C3023631258BFEC400F688A5 /* NSManagedObjectContext+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+CoreUtils.m"; sourceTree = "<group>"; };
+		C3023632258BFEC400F688A5 /* NSAttributeDescription+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributeDescription+CoreUtils.h"; sourceTree = "<group>"; };
+		C3023633258BFEC400F688A5 /* NSPropertyDescription+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPropertyDescription+CoreUtils.m"; sourceTree = "<group>"; };
+		C3023634258BFEC400F688A5 /* NSArray+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CoreData.h"; sourceTree = "<group>"; };
+		C3023635258BFEC400F688A5 /* NSEntityDescription+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+CoreUtils.h"; sourceTree = "<group>"; };
+		C3023636258BFEC400F688A5 /* NSThread+CoreManageObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+CoreManageObjectContext.m"; sourceTree = "<group>"; };
+		C3023637258BFEC400F688A5 /* CDQCoreData+Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDQCoreData+Tracker.h"; sourceTree = "<group>"; };
+		C3023638258BFEC400F688A5 /* CDQCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQCoreData.h; sourceTree = "<group>"; };
+		C302363A258BFEC400F688A5 /* CoreDataContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContainer.h; sourceTree = "<group>"; };
+		C302363B258BFEC400F688A5 /* CoreDataContainer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContainer_Private.h; sourceTree = "<group>"; };
+		C302363C258BFEC400F688A5 /* CoreDataContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContainer.m; sourceTree = "<group>"; };
+		C302363D258BFEC400F688A5 /* CDQCoreData_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQCoreData_Private.h; sourceTree = "<group>"; };
+		C302363E258BFEC400F688A5 /* CDQCoreData+Tracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDQCoreData+Tracker.m"; sourceTree = "<group>"; };
+		C3023640258BFEC400F688A5 /* CoreDataObject+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreDataObject+CoreUtils.h"; sourceTree = "<group>"; };
+		C3023641258BFEC400F688A5 /* CoreDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataObject.h; sourceTree = "<group>"; };
+		C3023642258BFEC400F688A5 /* CoreDataObject_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataObject_Private.h; sourceTree = "<group>"; };
+		C3023643258BFEC400F688A5 /* CoreDataObject+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreDataObject+CoreUtils.m"; sourceTree = "<group>"; };
+		C3023644258BFEC400F688A5 /* CoreDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataObject.m; sourceTree = "<group>"; };
+		C3023645258BFEC400F688A5 /* CDQCoreData+StaticConfigurations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDQCoreData+StaticConfigurations.m"; sourceTree = "<group>"; };
+		C3023647258BFEC400F688A5 /* CoreDatabaseTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDatabaseTracker.h; sourceTree = "<group>"; };
+		C3023648258BFEC400F688A5 /* CoreDatabaseTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDatabaseTracker.m; sourceTree = "<group>"; };
+		C302364A258BFEC400F688A5 /* CoreFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreFetchedResultsController.m; sourceTree = "<group>"; };
+		C302364B258BFEC400F688A5 /* CoreDataFetchStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataFetchStatement.m; sourceTree = "<group>"; };
+		C302364C258BFEC500F688A5 /* CoreFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFetchedResultsController.h; sourceTree = "<group>"; };
+		C302364D258BFEC500F688A5 /* CoreDataFetchStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataFetchStatement.h; sourceTree = "<group>"; };
+		C302364F258BFEC500F688A5 /* CoreDataMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataMapper.m; sourceTree = "<group>"; };
+		C3023650258BFEC500F688A5 /* CoreDataMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMapper.h; sourceTree = "<group>"; };
+		C3023651258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDQCoreData+StaticConfigurations.h"; sourceTree = "<group>"; };
+		C3023652258BFEC500F688A5 /* CDQCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDQCoreData.m; sourceTree = "<group>"; };
+		C3023689258C009900F688A5 /* CDQDatabaseStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQDatabaseStorage.h; sourceTree = "<group>"; };
+		C302368A258C009A00F688A5 /* CDQDatabaseStorage_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQDatabaseStorage_Private.h; sourceTree = "<group>"; };
+		C302368B258C009A00F688A5 /* CDQDatabaseStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDQDatabaseStorage.m; sourceTree = "<group>"; };
+		C3023693258C019600F688A5 /* NSObject+CoreStaticConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CoreStaticConfiguration.m"; sourceTree = "<group>"; };
+		C3023694258C019600F688A5 /* NSObject+CoreStaticConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CoreStaticConfiguration.h"; sourceTree = "<group>"; };
+		C3023699258C01E900F688A5 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C302369C258C02E800F688A5 /* NSObject+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CoreUtils.h"; sourceTree = "<group>"; };
+		C302369D258C02E800F688A5 /* NSObject+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CoreUtils.m"; sourceTree = "<group>"; };
+		C30236A3258C036D00F688A5 /* NSObject+CoreSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CoreSerialize.h"; sourceTree = "<group>"; };
+		C30236A4258C036D00F688A5 /* NSObject+CoreSerialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CoreSerialize.m"; sourceTree = "<group>"; };
+		C30236A5258C036D00F688A5 /* CoreJSONSerializing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreJSONSerializing.h; sourceTree = "<group>"; };
+		C30236AB258C03D700F688A5 /* NSDate+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CoreUtils.h"; sourceTree = "<group>"; };
+		C30236AC258C03D700F688A5 /* NSDate+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CoreUtils.m"; sourceTree = "<group>"; };
+		C30236AD258C03D700F688A5 /* NSObject+CoreValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CoreValidation.m"; sourceTree = "<group>"; };
+		C30236AE258C03D700F688A5 /* NSObject+CoreValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CoreValidation.h"; sourceTree = "<group>"; };
+		C30236AF258C03D700F688A5 /* NSData+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CoreUtils.m"; sourceTree = "<group>"; };
+		C30236B0258C03D700F688A5 /* NSData+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CoreUtils.h"; sourceTree = "<group>"; };
+		C30236BB258C041E00F688A5 /* NSString+CoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CoreUtils.h"; sourceTree = "<group>"; };
+		C30236BC258C041E00F688A5 /* NSString+CoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CoreUtils.m"; sourceTree = "<group>"; };
+		C30236C2258C049300F688A5 /* DebugAsserts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAsserts.h; sourceTree = "<group>"; };
+		C30236C6258C079C00F688A5 /* NSThread+CoreBlockUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+CoreBlockUtils.m"; sourceTree = "<group>"; };
+		C30236C7258C079C00F688A5 /* NSThread+CoreBlockUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+CoreBlockUtils.h"; sourceTree = "<group>"; };
+		C30236D0258C083E00F688A5 /* CoreFormatterStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFormatterStorage.h; sourceTree = "<group>"; };
+		C30236D1258C083E00F688A5 /* CoreFormatterStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreFormatterStorage.m; sourceTree = "<group>"; };
+		C30236DE258C093300F688A5 /* CDQGlobalEnivroment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDQGlobalEnivroment.h; sourceTree = "<group>"; };
+		C30236DF258C093300F688A5 /* CDQGlobalEnivroment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDQGlobalEnivroment.m; sourceTree = "<group>"; };
+		C3A42CD9258E794B0010B34E /* CDQCoreDataConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDQCoreDataConfiguration.h; sourceTree = "<group>"; };
+		C3A42CDA258E794B0010B34E /* CDQCoreDataConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDQCoreDataConfiguration.m; sourceTree = "<group>"; };
+		C3A42CE4258E79720010B34E /* CDQCoreDataStorageConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDQCoreDataStorageConfiguration.h; sourceTree = "<group>"; };
+		C3A42CE5258E79720010B34E /* CDQCoreDataStorageConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDQCoreDataStorageConfiguration.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C302360B258BFE7A00F688A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3023614258BFE7A00F688A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3023618258BFE7A00F688A5 /* CDQCoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3023604258BFE7A00F688A5 = {
+			isa = PBXGroup;
+			children = (
+				C3023610258BFE7A00F688A5 /* CDQCoreData */,
+				C302361B258BFE7A00F688A5 /* CDQCoreDataTests */,
+				C302360F258BFE7A00F688A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C302360F258BFE7A00F688A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C302360E258BFE7A00F688A5 /* CDQCoreData.framework */,
+				C3023617258BFE7A00F688A5 /* CDQCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3023610258BFE7A00F688A5 /* CDQCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C3A42CDF258E79520010B34E /* Configuration */,
+				C30236DE258C093300F688A5 /* CDQGlobalEnivroment.h */,
+				C30236DF258C093300F688A5 /* CDQGlobalEnivroment.m */,
+				C3023688258C009900F688A5 /* Storage */,
+				C302362A258BFEC400F688A5 /* Utils */,
+				C3023646258BFEC400F688A5 /* Tracker */,
+				C302364E258BFEC500F688A5 /* Mapper */,
+				C3023649258BFEC400F688A5 /* Fetch */,
+				C3023639258BFEC400F688A5 /* Container */,
+				C302363F258BFEC400F688A5 /* CoreObject */,
+				C3023638258BFEC400F688A5 /* CDQCoreData.h */,
+				C302363D258BFEC400F688A5 /* CDQCoreData_Private.h */,
+				C3023652258BFEC500F688A5 /* CDQCoreData.m */,
+				C3023651258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.h */,
+				C3023645258BFEC400F688A5 /* CDQCoreData+StaticConfigurations.m */,
+				C3023637258BFEC400F688A5 /* CDQCoreData+Tracker.h */,
+				C302363E258BFEC400F688A5 /* CDQCoreData+Tracker.m */,
+				C3023612258BFE7A00F688A5 /* Info.plist */,
+				C3023699258C01E900F688A5 /* Prefix.pch */,
+			);
+			path = CDQCoreData;
+			sourceTree = "<group>";
+		};
+		C302361B258BFE7A00F688A5 /* CDQCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				C302361C258BFE7A00F688A5 /* CDQCoreDataTests.m */,
+				C302361E258BFE7A00F688A5 /* Info.plist */,
+			);
+			path = CDQCoreDataTests;
+			sourceTree = "<group>";
+		};
+		C302362A258BFEC400F688A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3023634258BFEC400F688A5 /* NSArray+CoreData.h */,
+				C302362B258BFEC400F688A5 /* NSArray+CoreData.m */,
+				C3023632258BFEC400F688A5 /* NSAttributeDescription+CoreUtils.h */,
+				C302362D258BFEC400F688A5 /* NSAttributeDescription+CoreUtils.m */,
+				C30236B0258C03D700F688A5 /* NSData+CoreUtils.h */,
+				C30236AF258C03D700F688A5 /* NSData+CoreUtils.m */,
+				C30236AB258C03D700F688A5 /* NSDate+CoreUtils.h */,
+				C30236AC258C03D700F688A5 /* NSDate+CoreUtils.m */,
+				C3023635258BFEC400F688A5 /* NSEntityDescription+CoreUtils.h */,
+				C302362F258BFEC400F688A5 /* NSEntityDescription+CoreUtils.m */,
+				C302362E258BFEC400F688A5 /* NSManagedObjectContext+CoreUtils.h */,
+				C3023631258BFEC400F688A5 /* NSManagedObjectContext+CoreUtils.m */,
+				C3023694258C019600F688A5 /* NSObject+CoreStaticConfiguration.h */,
+				C3023693258C019600F688A5 /* NSObject+CoreStaticConfiguration.m */,
+				C302369C258C02E800F688A5 /* NSObject+CoreUtils.h */,
+				C302369D258C02E800F688A5 /* NSObject+CoreUtils.m */,
+				C30236AE258C03D700F688A5 /* NSObject+CoreValidation.h */,
+				C30236AD258C03D700F688A5 /* NSObject+CoreValidation.m */,
+				C302362C258BFEC400F688A5 /* NSPropertyDescription+CoreUtils.h */,
+				C3023633258BFEC400F688A5 /* NSPropertyDescription+CoreUtils.m */,
+				C30236BB258C041E00F688A5 /* NSString+CoreUtils.h */,
+				C30236BC258C041E00F688A5 /* NSString+CoreUtils.m */,
+				C30236C7258C079C00F688A5 /* NSThread+CoreBlockUtils.h */,
+				C30236C6258C079C00F688A5 /* NSThread+CoreBlockUtils.m */,
+				C3023630258BFEC400F688A5 /* NSThread+CoreManageObjectContext.h */,
+				C3023636258BFEC400F688A5 /* NSThread+CoreManageObjectContext.m */,
+				C30236A2258C036D00F688A5 /* Serializer */,
+				C30236C1258C049300F688A5 /* Testing */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C3023639258BFEC400F688A5 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				C302363A258BFEC400F688A5 /* CoreDataContainer.h */,
+				C302363B258BFEC400F688A5 /* CoreDataContainer_Private.h */,
+				C302363C258BFEC400F688A5 /* CoreDataContainer.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		C302363F258BFEC400F688A5 /* CoreObject */ = {
+			isa = PBXGroup;
+			children = (
+				C3023640258BFEC400F688A5 /* CoreDataObject+CoreUtils.h */,
+				C3023641258BFEC400F688A5 /* CoreDataObject.h */,
+				C3023644258BFEC400F688A5 /* CoreDataObject.m */,
+				C3023642258BFEC400F688A5 /* CoreDataObject_Private.h */,
+				C3023643258BFEC400F688A5 /* CoreDataObject+CoreUtils.m */,
+			);
+			path = CoreObject;
+			sourceTree = "<group>";
+		};
+		C3023646258BFEC400F688A5 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				C3023647258BFEC400F688A5 /* CoreDatabaseTracker.h */,
+				C3023648258BFEC400F688A5 /* CoreDatabaseTracker.m */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		C3023649258BFEC400F688A5 /* Fetch */ = {
+			isa = PBXGroup;
+			children = (
+				C302364C258BFEC500F688A5 /* CoreFetchedResultsController.h */,
+				C302364A258BFEC400F688A5 /* CoreFetchedResultsController.m */,
+				C302364B258BFEC400F688A5 /* CoreDataFetchStatement.m */,
+				C302364D258BFEC500F688A5 /* CoreDataFetchStatement.h */,
+			);
+			path = Fetch;
+			sourceTree = "<group>";
+		};
+		C302364E258BFEC500F688A5 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				C302364F258BFEC500F688A5 /* CoreDataMapper.m */,
+				C3023650258BFEC500F688A5 /* CoreDataMapper.h */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		C3023688258C009900F688A5 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C30236CF258C083E00F688A5 /* Formatter */,
+				C30236CE258C082E00F688A5 /* Database */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		C30236A2258C036D00F688A5 /* Serializer */ = {
+			isa = PBXGroup;
+			children = (
+				C30236A3258C036D00F688A5 /* NSObject+CoreSerialize.h */,
+				C30236A4258C036D00F688A5 /* NSObject+CoreSerialize.m */,
+				C30236A5258C036D00F688A5 /* CoreJSONSerializing.h */,
+			);
+			path = Serializer;
+			sourceTree = "<group>";
+		};
+		C30236C1258C049300F688A5 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				C30236C2258C049300F688A5 /* DebugAsserts.h */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		C30236CE258C082E00F688A5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C3023689258C009900F688A5 /* CDQDatabaseStorage.h */,
+				C302368A258C009A00F688A5 /* CDQDatabaseStorage_Private.h */,
+				C302368B258C009A00F688A5 /* CDQDatabaseStorage.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		C30236CF258C083E00F688A5 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				C30236D0258C083E00F688A5 /* CoreFormatterStorage.h */,
+				C30236D1258C083E00F688A5 /* CoreFormatterStorage.m */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		C3A42CDF258E79520010B34E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				C3A42CD9258E794B0010B34E /* CDQCoreDataConfiguration.h */,
+				C3A42CDA258E794B0010B34E /* CDQCoreDataConfiguration.m */,
+				C3A42CE4258E79720010B34E /* CDQCoreDataStorageConfiguration.h */,
+				C3A42CE5258E79720010B34E /* CDQCoreDataStorageConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3023609258BFE7A00F688A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30236A8258C036D00F688A5 /* CoreJSONSerializing.h in Headers */,
+				C3023696258C019600F688A5 /* NSObject+CoreStaticConfiguration.h in Headers */,
+				C30236B1258C03D700F688A5 /* NSDate+CoreUtils.h in Headers */,
+				C30236E0258C093300F688A5 /* CDQGlobalEnivroment.h in Headers */,
+				C3023654258BFEC500F688A5 /* NSPropertyDescription+CoreUtils.h in Headers */,
+				C30236B6258C03D800F688A5 /* NSData+CoreUtils.h in Headers */,
+				C30236A6258C036D00F688A5 /* NSObject+CoreSerialize.h in Headers */,
+				C3023664258BFEC500F688A5 /* CDQCoreData_Private.h in Headers */,
+				C3023667258BFEC500F688A5 /* CoreDataObject.h in Headers */,
+				C302365A258BFEC500F688A5 /* NSAttributeDescription+CoreUtils.h in Headers */,
+				C3023673258BFEC500F688A5 /* CoreDataMapper.h in Headers */,
+				C30236C9258C079C00F688A5 /* NSThread+CoreBlockUtils.h in Headers */,
+				C3023671258BFEC500F688A5 /* CoreDataFetchStatement.h in Headers */,
+				C3A42CE6258E79720010B34E /* CDQCoreDataStorageConfiguration.h in Headers */,
+				C302365D258BFEC500F688A5 /* NSEntityDescription+CoreUtils.h in Headers */,
+				C302369E258C02E800F688A5 /* NSObject+CoreUtils.h in Headers */,
+				C302366C258BFEC500F688A5 /* CoreDatabaseTracker.h in Headers */,
+				C302365C258BFEC500F688A5 /* NSArray+CoreData.h in Headers */,
+				C3A42CDB258E794B0010B34E /* CDQCoreDataConfiguration.h in Headers */,
+				C3023656258BFEC500F688A5 /* NSManagedObjectContext+CoreUtils.h in Headers */,
+				C30236B4258C03D800F688A5 /* NSObject+CoreValidation.h in Headers */,
+				C3023661258BFEC500F688A5 /* CoreDataContainer.h in Headers */,
+				C30236C3258C049300F688A5 /* DebugAsserts.h in Headers */,
+				C3023658258BFEC500F688A5 /* NSThread+CoreManageObjectContext.h in Headers */,
+				C3023668258BFEC500F688A5 /* CoreDataObject_Private.h in Headers */,
+				C302368C258C009A00F688A5 /* CDQDatabaseStorage.h in Headers */,
+				C302365F258BFEC500F688A5 /* CDQCoreData+Tracker.h in Headers */,
+				C3023674258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.h in Headers */,
+				C3023662258BFEC500F688A5 /* CoreDataContainer_Private.h in Headers */,
+				C3023660258BFEC500F688A5 /* CDQCoreData.h in Headers */,
+				C30236BD258C041E00F688A5 /* NSString+CoreUtils.h in Headers */,
+				C302368D258C009A00F688A5 /* CDQDatabaseStorage_Private.h in Headers */,
+				C3023666258BFEC500F688A5 /* CoreDataObject+CoreUtils.h in Headers */,
+				C30236D2258C083E00F688A5 /* CoreFormatterStorage.h in Headers */,
+				C3023670258BFEC500F688A5 /* CoreFetchedResultsController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C302360D258BFE7A00F688A5 /* CDQCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3023622258BFE7A00F688A5 /* Build configuration list for PBXNativeTarget "CDQCoreData" */;
+			buildPhases = (
+				C3023609258BFE7A00F688A5 /* Headers */,
+				C302360A258BFE7A00F688A5 /* Sources */,
+				C302360B258BFE7A00F688A5 /* Frameworks */,
+				C302360C258BFE7A00F688A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDQCoreData;
+			productName = CDQCoreData;
+			productReference = C302360E258BFE7A00F688A5 /* CDQCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3023616258BFE7A00F688A5 /* CDQCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3023625258BFE7A00F688A5 /* Build configuration list for PBXNativeTarget "CDQCoreDataTests" */;
+			buildPhases = (
+				C3023613258BFE7A00F688A5 /* Sources */,
+				C3023614258BFE7A00F688A5 /* Frameworks */,
+				C3023615258BFE7A00F688A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C302361A258BFE7A00F688A5 /* PBXTargetDependency */,
+			);
+			name = CDQCoreDataTests;
+			productName = CDQCoreDataTests;
+			productReference = C3023617258BFE7A00F688A5 /* CDQCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3023605258BFE7A00F688A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C302360D258BFE7A00F688A5 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					C3023616258BFE7A00F688A5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C3023608258BFE7A00F688A5 /* Build configuration list for PBXProject "CDQCoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3023604258BFE7A00F688A5;
+			productRefGroup = C302360F258BFE7A00F688A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C302360D258BFE7A00F688A5 /* CDQCoreData */,
+				C3023616258BFE7A00F688A5 /* CDQCoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C302360C258BFE7A00F688A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3023615258BFE7A00F688A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C302360A258BFE7A00F688A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3023659258BFEC500F688A5 /* NSManagedObjectContext+CoreUtils.m in Sources */,
+				C30236B2258C03D800F688A5 /* NSDate+CoreUtils.m in Sources */,
+				C302368E258C009A00F688A5 /* CDQDatabaseStorage.m in Sources */,
+				C30236B5258C03D800F688A5 /* NSData+CoreUtils.m in Sources */,
+				C3023657258BFEC500F688A5 /* NSEntityDescription+CoreUtils.m in Sources */,
+				C302366E258BFEC500F688A5 /* CoreFetchedResultsController.m in Sources */,
+				C302366D258BFEC500F688A5 /* CoreDatabaseTracker.m in Sources */,
+				C30236C8258C079C00F688A5 /* NSThread+CoreBlockUtils.m in Sources */,
+				C3023653258BFEC500F688A5 /* NSArray+CoreData.m in Sources */,
+				C3023669258BFEC500F688A5 /* CoreDataObject+CoreUtils.m in Sources */,
+				C302369F258C02E800F688A5 /* NSObject+CoreUtils.m in Sources */,
+				C3A42CE7258E79720010B34E /* CDQCoreDataStorageConfiguration.m in Sources */,
+				C30236D3258C083E00F688A5 /* CoreFormatterStorage.m in Sources */,
+				C3A42CDC258E794B0010B34E /* CDQCoreDataConfiguration.m in Sources */,
+				C3023665258BFEC500F688A5 /* CDQCoreData+Tracker.m in Sources */,
+				C302366F258BFEC500F688A5 /* CoreDataFetchStatement.m in Sources */,
+				C30236B3258C03D800F688A5 /* NSObject+CoreValidation.m in Sources */,
+				C302365E258BFEC500F688A5 /* NSThread+CoreManageObjectContext.m in Sources */,
+				C3023663258BFEC500F688A5 /* CoreDataContainer.m in Sources */,
+				C3023655258BFEC500F688A5 /* NSAttributeDescription+CoreUtils.m in Sources */,
+				C302366B258BFEC500F688A5 /* CDQCoreData+StaticConfigurations.m in Sources */,
+				C30236E1258C093300F688A5 /* CDQGlobalEnivroment.m in Sources */,
+				C3023675258BFEC500F688A5 /* CDQCoreData.m in Sources */,
+				C30236A7258C036D00F688A5 /* NSObject+CoreSerialize.m in Sources */,
+				C302365B258BFEC500F688A5 /* NSPropertyDescription+CoreUtils.m in Sources */,
+				C30236BE258C041E00F688A5 /* NSString+CoreUtils.m in Sources */,
+				C3023672258BFEC500F688A5 /* CoreDataMapper.m in Sources */,
+				C302366A258BFEC500F688A5 /* CoreDataObject.m in Sources */,
+				C3023695258C019600F688A5 /* NSObject+CoreStaticConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3023613258BFE7A00F688A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C302361D258BFE7A00F688A5 /* CDQCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C302361A258BFE7A00F688A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C302360D258BFE7A00F688A5 /* CDQCoreData */;
+			targetProxy = C3023619258BFE7A00F688A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3023620258BFE7A00F688A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3023621258BFE7A00F688A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3023623258BFE7A00F688A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GCBUDGV556;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = CDQCoreData/Prefix.pch;
+				INFOPLIST_FILE = CDQCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gH.CDQCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3023624258BFE7A00F688A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GCBUDGV556;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = CDQCoreData/Prefix.pch;
+				INFOPLIST_FILE = CDQCoreData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gH.CDQCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3023626258BFE7A00F688A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCBUDGV556;
+				INFOPLIST_FILE = CDQCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gH.CDQCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3023627258BFE7A00F688A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCBUDGV556;
+				INFOPLIST_FILE = CDQCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gH.CDQCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3023608258BFE7A00F688A5 /* Build configuration list for PBXProject "CDQCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3023620258BFE7A00F688A5 /* Debug */,
+				C3023621258BFE7A00F688A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3023622258BFE7A00F688A5 /* Build configuration list for PBXNativeTarget "CDQCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3023623258BFE7A00F688A5 /* Debug */,
+				C3023624258BFE7A00F688A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3023625258BFE7A00F688A5 /* Build configuration list for PBXNativeTarget "CDQCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3023626258BFE7A00F688A5 /* Debug */,
+				C3023627258BFE7A00F688A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3023605258BFE7A00F688A5 /* Project object */;
+}
